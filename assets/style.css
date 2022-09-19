@@ -1,0 +1,270 @@
+.carousel-caption {
+  bottom: 270px;
+}
+
+.carousel-caption h5 {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 25px;
+  color: gold;
+  text-decoration: underline;
+}
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 30px;
+  line-height: 1.9;
+  color: darkcyan;
+}
+  
+  .navbar-light .navbar-brand {
+    color:black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.navbar-nav{ margin-left: 60%;
+
+}
+  
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: black;
+    font-size: medium;
+    font-weight: 800;
+   
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: medium;
+    font-weight: 800;
+    
+  }
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  
+  .nav-link.active,.nav-link:focus{
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+.intro{
+  color:darkred;
+  text-align: center; 
+  font-weight: bolder;
+  font-style: italic;
+}
+.goal{ 
+  font-size: small;
+  
+}
+.diversity{
+  font-size: small;
+}
+.head3{
+  text-align:center;
+  color: deeppink;
+}
+.location{
+  color: blue;
+  font-size: large;
+  text-decoration: double;
+
+
+}
+.robot1{
+  height: 5px;
+  margin-top: 1pt;
+}
+
+.desc h3{
+  font-size: small;
+  color: black;
+}
+.est h4{
+  font-size: small;
+  color: black;
+}
+.services{
+  background-color: whitesmoke;
+}
+.head4{
+  font-weight: bold;
+  color: RED;
+}
+.services.rows{
+  margin:0%;
+}
+.inpt.col-md-4{
+  background-color: green;
+
+}
+.services ul{
+  
+  color: white;
+  font-size: x-large;
+  font-style: italic;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+  padding: 10%;
+  border-color: black;
+  font-weight: 800;
+  background-color: lightblue;
+}
+.extra{
+  background-color: aliceblue;
+}
+.extra h4{
+  text-align: center;
+  font-style: italic;
+}
+.portfolio{
+  width: 100%;
+  background-color: black;
+}
+
+/** IMAGE SLIDER **/
+
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.head2{
+  text-align: center; color:goldenrod;
+  outline-color: coral;
+  font-size: x-small;
+  text-decoration: underline; 
+}
+.portfolio, figure { 
+  margin: 0; background:white;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 100%; overflow:visible; 
+  height: 80%;
+}
+figure.slider { 
+  position: relative;
+  width:500%; 
+  height: 100%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  
+  width: 20%; height: 120vh;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: auto; height: 90%;}
+figure.slider figure figcaption { 
+  position: absolute; bottom: 40%;
+  color:yellow; width: 100%;
+  font-size: 3rem; padding: .4rem; 
+}
+.hse5.jpg{
+  width: 100%;
+  display: block;
+}
+.card{
+  position: center;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: wheat;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+  height: 400px;
+  width: 350px;
+}
+.card h1{
+  font-size: medium;
+  font-style: italic;
+}
+.contact{
+  background-color:yellow;
+}
+.contact h6{
+  color: black;
+  text-align: left;
+  text-decoration: wavy;
+  font-weight: bold;
+}
+.button{
+  background-color: rgb(41, 40, 31);
+  color: white;
+  width: 50%;
+  height: 94%;
+  font-weight: bold;
+  margin-left: 25%;
+  text-decoration: underline;
+}
+.footer{
+  background-color: orange;
+  width: 100%;
+  height: 4.2cm;
+  
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7rem 0 5rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a i{
+  font-size: 1.1rem;
+  width: 40px;
+  transition: color .4s ease;
+  
+}
+/** FORMS PAGE 2**/
+.formbox{
+  background-color:whitesmoke;
+  align-content: center;
+}
+.formbox.item{
+  margin-left: 60%;
+
+}
+.staff h4{
+  text-decoration: wavy;
+  color: red;
+  font-size: 60px;
+  font-style: unset;
+}
